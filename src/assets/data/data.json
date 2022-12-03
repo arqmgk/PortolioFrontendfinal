@@ -1,0 +1,36 @@
+
+{   
+    "name": "Kolbl Maximiliano Gabriel",
+    "backImage": "../assets/images/R.jpg",
+    "img":"../assets/images/Retrato.jpeg",
+    "img1":"../assets/images/ARG.png",
+    "position": "Full stack developer, designer, arquitecto, docente",
+    "education": {
+    "school": "Me recibí en la Universidad de Buenos Aires",
+    "title": "Arquitecto",
+    "img": "/assets/images/th.jpg",
+    "score": 0,
+    "start": "2002",
+    "end": "2008"},
+    "ubication": "Buenos Aires (Argentina)",
+    "about":"Full stack developer, designer, arquitecto, docente",
+    "experience":[{
+    "title":"DOCENTE",
+    "position": "Maestro de Carpintería",
+    "company": "DGCyE",
+    "img": "/assets/images/dgcye.jpg",
+    "start": "2022",
+    "end": "actualidad",
+     "muted":"maestro de carpintería"},
+    
+    {
+    "title":"ARQUITECTO",
+    "position": "Encargado de Oficina Técnica Aire Acondicionado",
+    "company": "Airkraw",
+    "img": "/assets/images/airkraw.jpg",
+    "start": "2006",
+    "end": "2008",
+    "muted":"jefe de oficina técnica"
+}
+]
+}

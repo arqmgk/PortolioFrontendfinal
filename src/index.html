@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>A1</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+</head>
+<body>
+  <app-root></app-root>
+  <script>
+      function cambiar_parrafo (){
+        document.getElementById("edit-acercade").style.display= "block";
+        let texto= document.getElementById("text-acercade").innerText;
+     console.log(texto);
+      }
+      function myFunction2 (valor){
+        let texto= document.getElementById("text-acercade").innerText=valor;
+
+      }
+      function logMessage(message){
+        console.log(message + "<br>");
+      }
+      //controla si se presiona un enter
+      function handle(e){
+        if(e.keyCode === 13){
+            e.preventDefault(); // Ensure it is only this code that runs
+            document.getElementById("edit-acercade").style.display= "none";
+            alert("Enter was pressed was presses");
+        }
+    }
+    //delete button
+  function borrar_parrafo ( ){
+   
+    document.getElementById("text-acercade").innerHTML = "";
+  
+
+  }
+
+       
+   
+      
+    </script>
+</body>
+</html>

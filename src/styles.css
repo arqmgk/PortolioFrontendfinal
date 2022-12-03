@@ -1,0 +1,41 @@
+
+   
+   .retrato {
+   border-radius: 50%;
+   border: 7px solid#fff;
+   width: 12%;
+   height: auto;
+   position: absolute;
+   top: 260px;
+   left: 100px;
+   display: block;
+   z-index: 1;}
+   #name {
+       margin-top: 70px;
+   }
+   div#banner{
+   width: 100% fit-content;
+   height: fit-content;
+   background-color: rgba(5, 102, 29, 0.952);
+   position: relative;
+   margin-left: 10px;
+   margin-right: 10px;
+}
+imagen#imagen-b{
+   float: left;
+}
+.social-bar {
+   position: static;
+   display: flex;
+   font-size: 1.4 rem;
+   flex-direction: row;
+   float: right;
+   background-color: #fff;
+   margin-right: 15px;
+   margin-top: 5px;
+   padding: 10px;
+}
+
+#button {
+   text-align: center;
+}
